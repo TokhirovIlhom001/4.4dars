@@ -1,0 +1,41 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./maxresdefault-1-14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.container {
+    max-width: 1440px;
+}
+.box {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.btn{
+    margin-left: 50px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 450px !important;
+}
+.c-row {
+    width: 100% !important;
+}
+.card {
+    color: white;
+}
